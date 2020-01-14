@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="converter.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="">
+      <div class="">
+        <div class="">
+          <h4>Decimal</h4>
+        </div>
+        <div class="">
+          <input type="text" id="decimal" value="" onkeyup="decimalToAll()">
+          <p id="demo"></p>
+        </div>
+      </div>
+
+      <div class="">
+        <div class="">
+          <h4>Hex</h4>
+        </div>
+        <div class="">
+          <input type="text" id="hex" value="" onkeyup="hexToAll()">
+        </div>
+      </div>
+
+      <div class="">
+        <div class="">
+          <h4>Octal</h4>
+        </div>
+        <div class="">
+          <input type="text" id="octal" value="" onkeyup="octalToAll()" >
+        </div>
+      </div>
+
+      <div class="">
+        <div class="">
+          <h4>Binary</h4>
+        </div>
+        <div class="">
+          <input type="text"  id="binary" value="" onkeyup="binaryToAll()">
+        </div>
+      </div>
+
+      <div class="">
+        <h4 id="invalid" style="color: red;"></h4>
+      </div>
+
+    </div>
+  </body>
+</html>
